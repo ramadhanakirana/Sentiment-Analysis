@@ -7,10 +7,11 @@ Metode yang digunakan dalam analisis ini adalah menggunakan Support Vector Machi
 ## Parameter Evaluasi
 Untuk mengevaluasi suatu model, biasanya digunakan beberapa parameter evaluasi. Paraameter evaluasi ini diambil dari confusion matrix. Adapun parameter evaluasi tersebut adalah:
 1. Accuracy
-2. Recall
-3. Precision
-4. F1-Score
-5. AUC
+   $Accuracy = TP + TN / TP + TN + FP + FN$
+3. Recall
+4. Precision
+5. F1-Score
+6. AUC
    
 ## Tahapan analisis sentimen
 Cara melakukan analisis sentimen adalah sebagai berikut:
