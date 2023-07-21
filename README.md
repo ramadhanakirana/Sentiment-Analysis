@@ -1,10 +1,18 @@
 ## Apa itu analisis sentimen 🤔
 Analisis sentimen merupakan suatu teknik yang bekerja dengan mengelompokkan polaritas dalam teks yang terdapat dalam kalimat untuk menentukan kelas label sentimen yang cocok dengan data tersebut. Sehingga, dari hasil analisis sentimen akan menggambarkan keadaan emosional seperti kegembiraan, kemarahan, atau kesedihan.
 
-## Metode 
-Metode yang digunakan dalam analisis ini adalah menggunakan Support Vector Machine.
+## Metode dan Sumber Data 
+Metode yang digunakan dalam analisis ini adalah menggunakan Support Vector Machine dengan data bersumber dari ulasan aplikasi Threads by Instagram pada Google Play Store dari awal diluncurkan hinggal tanggal 20 Juli 2023. Ulasan yang diambil adalah ulasan dengan rating 1 & 2 untuk kelas negatif dan rating 4 & 5 untuk kelas positif. Rating 3 tidak digunakan karena dianggap netral.
 
-## Cara melakukan analisis sentimen
+## Parameter Evaluasi
+Untuk mengevaluasi suatu model, biasanya digunakan beberapa parameter evaluasi. Paraameter evaluasi ini diambil dari confusion matrix. Adapun parameter evaluasi tersebut adalah:
+1. Accuracy
+2. Recall
+3. Precision
+4. F1-Score
+5. AUC
+   
+## Tahapan analisis sentimen
 Cara melakukan analisis sentimen adalah sebagai berikut:
 1. Mengumpulkan data/kalimat yang akan dianalisis. Pada project ini digunakan ulasan pengguna aplikasi dari Google Play Store yang diambil melalui teknik scrapping.
 2. Melakukan proses preprocessing. Tahapan preprocessing biasanya tergantung dengan data, ada beberapa tahapan yang dibutuhkan ada juga yang tidak dibutuhkan. Urutan pelaksanaannya pun tidak ada aturan khusus. Biasanya preprocessing terdiri dari 5 tahapan yaitu:
@@ -18,4 +26,8 @@ Cara melakukan analisis sentimen adalah sebagai berikut:
 5. Menentukan parameter optimal. Penentuan parameter optimal dapat mencoba satu per satu parameter maupun menggunakan teknik grid search.
 6. Melakukan klasifikasi.
 7. Penarikan kesimpulan.
+
+## Kesimpulan 📃
+Berdasarkan analisis yang telah dilakukan (syntax pengerjaan terlampir), maka dapat disimpulkan seperti berikut:
+
 
