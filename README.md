@@ -13,9 +13,9 @@ To evaluate a model, several evaluation parameters are usually used. This evalua
 5. Precision (the proportion when the actual class is positive, how often the model predict positive):
    $Precision = TP / (FP + TP)$
 7. F1-Score (harmonic average of precision and recall)
-   $F1-Score = 2 x ((precision x recall)/(precision + recall))
+   $F1-Score = 2 x ((precision x recall)/(precision + recall))$
 9. AUC (evaluate the extent to which the model can discriminate between positive and negative reviews):
-    $AUC = 0.5 x ((TP / (TP + FN)) + (TN / (TN + FP)))
+    $AUC = 0.5 x ((TP / (TP + FN)) + (TN / (TN + FP)))$
     
 
 ## Kesimpulan 📃
